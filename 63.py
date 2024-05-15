@@ -15,7 +15,7 @@ def timer():
         print("logged in for:",count,"seconds")
 
 
-x = threading.Thread(target=timer,daemon=True)
+x = threading.Thread(target=timer,daemon=True) # กำหนด daemon=True เพื่อให้เวลา user input something เสร็จแล้ว ให้ threading timer หยุด 
 x.start()
 
 answer=input("Do you want to exit")

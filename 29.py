@@ -1,4 +1,5 @@
 
+# **kwargs = เก็บ value ทั้งหมดให้อยู่ในรูป dict
 def address(**kwargs):
     #print('My home is '+ kwargs['number'] +' ' + kwargs['city']+ ' ' +kwargs['country'])
 

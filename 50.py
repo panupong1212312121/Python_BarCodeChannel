@@ -8,9 +8,9 @@ print(hello)
 
 hi = hello
 
-hi()
+hi() #print process
 
-print(hi)
+print(hi) #print address
 
 
 say = print

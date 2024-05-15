@@ -1,5 +1,7 @@
 
-# #abstract classes
+# #abstract classes 
+# 1. class ลูกที่สืบทอดจาก class แม่ บังคับว่าต้องดำเนินการทุก function ใน class แม่ (สำหรับกันลืม)
+# 2. บังคับให้ dev ห้ามสร้าง object จาก class ที่ใน method มี @abstractmethod (สำหรับไว้เป็น template เฉย ๆ)
 
 from abc import ABC, abstractmethod
 

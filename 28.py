@@ -1,8 +1,8 @@
 
 
-# # *args
+# # *args : เก็บ value ทั้งหมดให้อยู่ในรูป tuple
 
-def add(*result):
+def add(*result): 
     sum = 0
     result = list(result)
     result[0] = 10

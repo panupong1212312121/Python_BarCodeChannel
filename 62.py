@@ -25,7 +25,9 @@ y.start()
 z = threading.Thread(target=study,args=())
 z.start()
 
-
+# x.join()
+# y.join()
+# z.join()
 
 print(threading.active_count())
 print(threading.enumerate())
